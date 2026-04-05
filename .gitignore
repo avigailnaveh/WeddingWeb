@@ -1,0 +1,23 @@
+# Node
+**/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Large ML artifacts
+server/hebert_sentiment_model*/
+server/hebert_sentiment_m*/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.sql
