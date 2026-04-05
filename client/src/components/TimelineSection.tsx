@@ -2,11 +2,11 @@ import { Clock, Church, Wine, UtensilsCrossed, Music } from "lucide-react";
 import coupleThird from "@/assets/couple-third.jpg";
 
 const events = [
-  { time: "20:00", label: "קבלת פנים", icon: Clock },
-  { time: "20:30", label: "טקס", icon: Church },
-  { time: "21:30", label: "לחיים", icon: Wine },
-  { time: "22:00", label: "מנה ראשונה", icon: UtensilsCrossed },
-  { time: "00:00", label: "מסיבה", icon: Music },
+  { time: "19:00", label: "קבלת פנים", icon: Clock },
+  { time: "19:30", label: "חופה", icon: Church },
+  { time: "20:30", label: "לחיים", icon: Wine },
+  { time: "21:00", label: "מנה ראשונה", icon: UtensilsCrossed },
+  { time: "23:00", label: "מסיבה", icon: Music },
 ];
 
 const TimelineSection = () => {

@@ -1,5 +1,5 @@
 import coupleSecond from "@/assets/couple-second.jpg";
-import { Church, PartyPopper } from "lucide-react";
+import { Heart } from "lucide-react";
 
 const CeremonySection = () => {
   return (
@@ -17,36 +17,17 @@ const CeremonySection = () => {
           />
         </div>
 
-        {/* Ceremony */}
+        {/* Chuppah */}
         <div className="text-center mb-10">
-          <Church className="w-8 h-8 mx-auto text-wedding-warm mb-3" />
-          <h2 className="font-heading text-2xl font-semibold text-foreground mb-3">טקס</h2>
+          <Heart className="w-8 h-8 mx-auto text-wedding-warm mb-3" />
+          <h2 className="font-heading text-2xl font-semibold text-foreground mb-3">חופה</h2>
           <p className="font-body text-muted-foreground text-sm leading-relaxed">
-            21:30 - בית הכנסת הגדול
+            19:00 - אולם האירועים
             <br />
-            רחוב הרצל 15, תל אביב
+            כפר חב״ד
           </p>
           <a
-            href="https://maps.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-4 px-6 py-2 border border-primary text-primary font-body text-xs tracking-[0.15em] uppercase rounded-sm hover:bg-primary hover:text-primary-foreground transition-colors"
-          >
-            איך מגיעים
-          </a>
-        </div>
-
-        {/* Party */}
-        <div className="text-center">
-          <PartyPopper className="w-8 h-8 mx-auto text-wedding-warm mb-3" />
-          <h2 className="font-heading text-2xl font-semibold text-foreground mb-3">מסיבה</h2>
-          <p className="font-body text-muted-foreground text-sm leading-relaxed">
-            22:00 - אולם האירועים
-            <br />
-            רחוב הירקון 50, תל אביב
-          </p>
-          <a
-            href="https://maps.google.com"
+            href="https://waze.com/ul/hsv8y127fs"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-4 px-6 py-2 border border-primary text-primary font-body text-xs tracking-[0.15em] uppercase rounded-sm hover:bg-primary hover:text-primary-foreground transition-colors"

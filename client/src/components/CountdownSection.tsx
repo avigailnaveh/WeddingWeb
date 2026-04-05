@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const WEDDING_DATE = new Date("2025-11-29T21:30:00");
+const WEDDING_DATE = new Date(2026, 4, 25, 19, 0, 0);
 
 const CountdownSection = () => {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
@@ -23,10 +23,10 @@ const CountdownSection = () => {
   }, []);
 
   const units = [
-    { value: timeLeft.days, label: "ימים" },
-    { value: timeLeft.hours, label: "שעות" },
-    { value: timeLeft.minutes, label: "דקות" },
     { value: timeLeft.seconds, label: "שניות" },
+    { value: timeLeft.minutes, label: "דקות" },
+    { value: timeLeft.hours, label: "שעות" },
+    { value: timeLeft.days, label: "ימים" },
   ];
 
   return (
@@ -46,9 +46,9 @@ const CountdownSection = () => {
         מחכים לכם לחגוג איתנו
       </p>
       <div className="flex items-center justify-center gap-3 mt-4 font-heading text-foreground">
-        <span className="border-b border-primary px-3 pb-1 text-sm">שבת</span>
-        <span className="text-3xl font-semibold text-primary">29</span>
-        <span className="text-sm tracking-wider">נובמבר</span>
+        <span className="border-b border-primary px-3 pb-1 text-sm">שני</span>
+        <span className="text-3xl font-semibold text-primary">25</span>
+        <span className="text-sm tracking-wider">מאי</span>
       </div>
     </section>
   );

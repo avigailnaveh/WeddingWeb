@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import CountdownSection from "@/components/CountdownSection";
 import CeremonySection from "@/components/CeremonySection";
 import TimelineSection from "@/components/TimelineSection";
-import InstagramSection from "@/components/InstagramSection";
+import RSVPSection from "@/components/RSVPSection";
 
 const Index = () => {
   return (
@@ -11,10 +11,10 @@ const Index = () => {
       <CountdownSection />
       <CeremonySection />
       <TimelineSection />
-      <InstagramSection />
+      <RSVPSection />
       <footer className="py-6 text-center bg-wedding-blush">
-        <p className="font-script text-2xl text-wedding-warm">לוסיה & איוון</p>
-        <p className="font-body text-xs text-muted-foreground mt-1">29.11.2025</p>
+        <p className="font-script text-2xl text-wedding-warm">אביה & דודי</p>
+        <p className="font-body text-xs text-muted-foreground mt-1">25.05.2026</p>
       </footer>
     </div>
   );
