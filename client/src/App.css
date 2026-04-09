@@ -18,6 +18,14 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.torn-paper-bottom {
+  mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg"><path fill="black" d="M0,100 C150,90 400,100 600,80 C800,60 1100,100 1440,90 L1440,0 L0,0 Z"></path></svg>');
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg"><path fill="black" d="M0,100 C150,90 400,100 600,80 C800,60 1100,100 1440,90 L1440,0 L0,0 Z"></path></svg>');
+  -webkit-mask-size: cover;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
